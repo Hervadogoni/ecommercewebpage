@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href=bootstrap/css/bootstrap.min.css>
+        <link rel="icon" href="images/shopIcon.ico" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <style type="text/css">
+            [class*="col-"]{ margin-bottom: 20px;}
+            img{width: 100%;}
+            body{ text-align: justify;				
+				    background-color: #DDD;
+				 }
+            .jumbotron{
+                background-color:darkgrey;
+                height: 250px;
+            }
+            #foot{
+                margin-top: -30px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            #foot a{
+                color:currentColor;
+                padding-right: 50px;
+            }
+            form{
+                margin-top: 20px;
+            }
+            #pricing{
+                margin-bottom: -15px;
+            }
+            .badge{
+                width: 70px;
+            }
+            .btn-outline-primary{
+                margin-top: -15px;
+            }
+            .navbar-nav{
+                margin-left: auto;
+            }
+           
+				 
+            
+        </style>
+    </head>
+    <body>
+        <! navigation bar>
+        <div class="container-fluid">        
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="images/shop.jpg" alt="Logo" style="width:50px;">
+                </a>
+                <div class="navbar-nav" >                                    
+                    <div style="font-size: 30px; margin-top: -5px;"><button type="button" class="purchase"><i class="fas fa-shopping-cart"></i><span id= "purchase" class="badge badge-light" >0</span></button></div>
+                    <div><button type="button" class="btn btn-outline-success" style="margin-left: 30px;">Passez à la caisse</button></div>                                 
+                </div>  	
+            </nav>        
+        </div>
+        <! slide>
+        <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target=#demo data-slide-to="0" class="active"></li>
+                    <li data-target=#demo data-slide-to="1"></li>
+                    <li data-target=#demo data-slide-to="2"></li>  
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/sh.jpg" alt="image" width="1100" height="400"> 
+                        <div class="carousel-caption">
+                            <h3>Sold !!!</h3>
+                            <p>Make good deal</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ro.jpg" alt="image" width="1100" height="400"> 
+                        <div class="carousel-caption">
+                            <h3>Sold !!!</h3>
+                            <p>Free shipping</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/po.jpg" alt="image" width="1100" height="400"> 
+                        <div class="carousel-caption">
+                            <h3>Sold !!!</h3>
+                            <p> Correct pricing</p>
+                        </div>
+                    </div>   
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a> 
+            </div>
+            <! Bags>
+            <header class="row">
+				<div class="col-md-12"><br><h4>Bags</h4></div>
+			</header>
+            <section id="pricing" class="row" >
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">12$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">29$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">19$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">35$</spam></div>
+            </section>
+            <section class="row" >
+                <div class="col-sm-6 col-md-3" ><img src="images/we.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/an.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/ar.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/cr.jpg" alt="bag"></div>
+            </section>
+            <section id="button"class="row" >
+                <div  class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00111" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div  class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00112" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div  class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00114" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div  class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00115" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+            </section>
+            <! Watchs>
+            <header class="row">
+				<div class="col-md-12"><br><h4>Watchs</h4></div>
+			</header>
+            <section id="pricing" class="row" >
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">54$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">99$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">55$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">75$</spam></div>
+            </section>
+            <section class="row">
+                <div class="col-sm-6 col-md-3" ><img src="images/wa.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/wb.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/wc.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/wd.jpg" alt="bag"></div>
+            </section>
+            <section id="button"class="row" >
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00116" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00117" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00118" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00119" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+            </section>
+            <! Baskets>
+            <header class="row">
+				<div class="col-md-12"><br><h4>Baskets</h4></div>
+			</header>
+            <section id="pricing" class="row" >
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">78$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">49$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">34$</spam></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><spam class="badge badge-info">60$</spam></div>
+            </section>
+            <section class="row">
+                <div class="col-sm-6 col-md-3" ><img src="images/ba.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/bb.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/bc.jpg" alt="bag"></div>
+                <div class="col-sm-6 col-md-3" ><img src="images/bd.jpg" alt="bag"></div>
+            </section>
+            <section id="button"class="row" >
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00120" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00121" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00122" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+                <div class="col-sm-6 col-md-3 d-flex justify-content-center" ><button id="00123" type="button" class="btn btn-outline-primary">Ajouter au panier</button></div>
+            </section>
+        </div>
+        <! footer>
+            <footer>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <div id="foot">
+                            <em><a href="#">Politique de vente</a></em>
+                            <em><a href="#">Politique de confidencialité</a></em>
+                            <em><a href="#">Politique de rembourcement</a></em>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h3>Ajoutez un email et obtenez une reduction de 30% à chaque achat !!!</h3>
+                        </div>
+                        <form class="d-flex justify-content-center">
+                            <div class="form-row"> 
+                                <div id="q" class="input-group mb-3" style="width: 600px;"  >
+                                    <input type="text" name="email" placeholder="email" class="form-control input-sm">
+                                <div class="input-group-append" style="padding-right: 10px;">
+                                    <span class="input-group-text">@example.com</span>
+                                </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>                                                          
+                        </form>                           
+                    </div>
+                </div>
+                
+            </footer>
+        
+        <script src="jquery-3.5.1.min.js"></script>
+        <script>
+            var obj =[];
+            var i = 0;
+            var j = 0;
+            $('button[id]').click(function(){
+                i++;
+                $('#purchase').text(i);               
+                obj[j] = $(this).attr('id');
+                console.log(obj);
+                j++;
+            });
+             
+        </script>
+        <script src="../popper.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
